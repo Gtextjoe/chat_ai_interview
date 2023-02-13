@@ -9,6 +9,8 @@ class ChatDetailScreen extends StatefulWidget {
 class _ChatDetailScreenState extends State<ChatDetailScreen> {
   List<ChatMessage> messages = [
     ChatMessage(messageContent: 'Lorem ipsium', messageType: 'receiver'),
+    ChatMessage(
+        messageContent: "What i can i do you for?", messageType: "sender"),
     ChatMessage(messageContent: 'bla bla bla ', messageType: 'receiver'),
     ChatMessage(messageContent: 'this and that', messageType: 'receiver'),
     ChatMessage(
